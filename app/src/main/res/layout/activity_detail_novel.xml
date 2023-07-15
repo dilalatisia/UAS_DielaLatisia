@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailNovelActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="-10dp"
+                android:background="@color/black"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:text="The Boxer"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#1DCDBD"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pengarang"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Jung Ji - Hoon"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="389dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-50dp"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlHardcoded">
+
+                        <EditText
+                            android:layout_width="326dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            tools:ignore="Autofill,InefficientWeight,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Penerbit"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Line Webtoons"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="389dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-50dp"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlHardcoded">
+
+                        <EditText
+                            android:layout_width="326dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            tools:ignore="Autofill,InefficientWeight,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="15dp"
+                            android:text="398.971"
+                            android:textColor="@color/black"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="15dp"
+                            android:text="like"
+                            android:textColor="@color/black"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tahun Terbit"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="31-05-2020"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="389dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-50dp"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlHardcoded">
+
+                        <EditText
+                            android:layout_width="326dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            tools:ignore="Autofill,InefficientWeight,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        tools:ignore="RtlHardcoded,UselessParent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Genre"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:text="Action"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:background="#8BC34A"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    tools:ignore="TextSizeCheck">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_launcher_foreground"
+                        tools:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="15dp"
+                            android:text="45,9JT"
+                            android:textColor="@color/black"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="15dp"
+                            android:text="dibaca"
+                            android:textColor="@color/black"
+                            android:textStyle="italic"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="116dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/baseline_movie_filter_24"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="116dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/baseline_movie_filter_24"
+                        tools:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="9,83"
+                            android:textStyle="italic"
+                            android:textColor="@color/black"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textStyle="italic"
+                            android:text="ulasan"
+                            android:textColor="@color/black"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:text="Anda memiliki bakat mentah. Atau Anda yang diunggulkan. Tapi apakah kamu punya hati? Apakah Anda memiliki apa yang diperlukan? Mari kita lihat Anda terbuat dari apa. Pertarungan sesungguhnya dimulai sekarang!"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="italic"
+                    android:text="Bakat luar biasa yang tidak dimiliki siapa pun! Apakah in sebuah berkah atau kutukan?!"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:text="Mulai Baca Sekarang"
+                android:clickable="true"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,VisualLintButtonSize" />
+        </LinearLayout>
+           </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
